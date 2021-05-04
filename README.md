@@ -4,6 +4,8 @@ Auto Install Ocserv Server for CentOS&RedHat 7
 
 支持自动判断 firewalld 和 iptables，安装前请确保其中之一在运行。
 
+执行/bin/bash ocserv-auto.sh即可完成一键安装，安装过程会交互式提示需要输出账号密码 安装完成会自动添加到开启启动项
+
 * 支持自动判断防火墙，请确保 Firewalld 或者 iptables 其中一个是 active 状态；
 * 默认采用用户名密码验证；
 * 默认配置文件在 /etc/ocserv/ 目录；
